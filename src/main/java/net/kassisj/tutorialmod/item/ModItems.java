@@ -1,5 +1,6 @@
-package net.kassisj.tutorialmod;
+package net.kassisj.tutorialmod.item;
 
+import net.kassisj.tutorialmod.TutorialMod;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,6 +13,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",
             ()-> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
