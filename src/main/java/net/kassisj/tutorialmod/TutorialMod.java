@@ -32,7 +32,6 @@ public class TutorialMod
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
-
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
